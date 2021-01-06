@@ -11,6 +11,7 @@
         android:id="@+id/idFondoFA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
         android:scaleType="centerCrop"
         android:src="@drawable/fondo1"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -5,11 +5,16 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import cat.copernic.esther.morales.practica_final_mp07.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private  lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
 
