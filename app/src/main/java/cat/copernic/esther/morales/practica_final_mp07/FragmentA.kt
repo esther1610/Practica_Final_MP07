@@ -45,5 +45,4 @@ class FragmentA : Fragment() {
         _binding = null
     }
 
-
 }
